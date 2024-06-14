@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: true })) // Para leer querys y params
 
 app.use(session({
     store: MongoStore.create({
-        mongoUrl: "mongodb+srv://grondonacamila:4XIAX0e0VL2jCG1O@e-commerce.na6kuai.mongodb.net/ecommerce",
+        mongoUrl: "",
         ttl: 15 // tiempo de sesión 15 min
     }),
     secret: "CodigoSecreto",
